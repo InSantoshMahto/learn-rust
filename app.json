@@ -1,0 +1,11 @@
+{
+  "name": "WEDDING",
+  "description": "wedding projects",
+  "repository": "https://github.com/insantoshmahto/wedding",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": [
+    "wedding",
+    "insantoshmahto"
+  ],
+  "image": "heroku/nodejs"
+}

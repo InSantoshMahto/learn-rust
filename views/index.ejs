@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wedding Multipurpose HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site Description Here" />
+    <base href="/" />
+    <%- include('./includes/link.ejs') %>
+  </head>
+  <body class="">
+    <%- include('./includes/header.ejs') %>
+    <div class="main-container">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>
+                Find and book unique
+                <span
+                  class="inline-block typed-text typed-text--cursor color--primary"
+                  data-typed-strings="hotels,loft apartments,yurts,experiences,apartments,hostels,camp sites,luxury yachts"
+                  >accommodation</span
+                >
+                <br class="hidden-xs" />in over 100 countries.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-md-3">
+                <label>Keywords</label>
+                <input
+                  type="text"
+                  placeholder="Cities, Keywords etc."
+                  name="where"
+                />
+              </div>
+              <div class="col-md-3">
+                <label>Check In</label>
+                <input
+                  type="text"
+                  name="date-check-in"
+                  class="datepicker datepicker--fluid"
+                  placeholder="Check in date"
+                />
+              </div>
+              <div class="col-md-3">
+                <label>Check Out</label>
+                <input
+                  type="text"
+                  name="date-check-out"
+                  class="datepicker datepicker--fluid"
+                  placeholder="Check out date"
+                />
+              </div>
+              <div class="col">
+                <label>Guests</label>
+                <div class="input-select input-select--borderless">
+                  <select name="guests">
+                    <option value="1">1</option>
+                    <option value="2" selected="">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="6+">6+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <button type="submit" class="btn btn--primary">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h4>Featured Properties</h4>
+            </div>
+            <div class="col-6 text-right">
+              <a href="#">View more</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/accom-1.jpg" />
+                <h5 class="mb--0">Manhattan Loft Apartment</h5>
+                <div>Entire home &#9702; 2 bedrooms</div>
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/accom-2.jpg" />
+                <h5 class="mb--0">Beautiful country home</h5>
+                <div>Entire home &#9702; 4 bedrooms</div>
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/accom-3.jpg" />
+                <h5 class="mb--0">Modern Beachside Villa</h5>
+                <div>Entire home &#9702; 3 bedrooms</div>
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/accom-4.jpg" />
+                <h5 class="mb--0">Rustic City Abode</h5>
+                <div>Entire home &#9702; 2 bedrooms</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h4>Popular Locations</h4>
+            </div>
+            <div class="col-6 text-right">
+              <a href="#">View more</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-6">
+              <a href="#" class="block">
+                <div
+                  class="feature feature-7 boxed text-center imagebg"
+                  data-overlay="3"
+                >
+                  <div class="background-image-holder">
+                    <img alt="background" src="img/accom-5.jpg" />
+                  </div>
+                  <h4 class="pos-vertical-center">Sydney</h4>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-6">
+              <a href="#" class="block">
+                <div
+                  class="feature feature-7 boxed text-center imagebg"
+                  data-overlay="3"
+                >
+                  <div class="background-image-holder">
+                    <img alt="background" src="img/accom-6.jpg" />
+                  </div>
+                  <h4 class="pos-vertical-center">San Francisco</h4>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-6">
+              <a href="#" class="block">
+                <div
+                  class="feature feature-7 boxed text-center imagebg"
+                  data-overlay="3"
+                >
+                  <div class="background-image-holder">
+                    <img alt="background" src="img/accom-7.jpg" />
+                  </div>
+                  <h4 class="pos-vertical-center">Berlin</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!--end of row-->
+        </div>
+        <!--end of container-->
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h4>Featured Experiences</h4>
+            </div>
+            <div class="col-6 text-right">
+              <a href="#">View more</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/tourism-9.jpg" />
+                <h5 class="mb--0">LA Beatbox Competition</h5>
+                <div>$75 &#9702; 4 hour experience</div>
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/tourism-8.jpg" />
+                <h5 class="mb--0">Canoe Lake Penner</h5>
+                <div>$125 &#9702; 6 hour experience</div>
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/tourism-7.jpg" />
+                <h5 class="mb--0">Sierra Nevada Hike</h5>
+                <div>$299 &#9702; 2 day experience</div>
+              </a>
+            </div>
+            <div class="col-md-3 col-6">
+              <a href="#" class="feature">
+                <img alt="Pic" src="img/tourism-6.jpg" />
+                <h5 class="mb--0">Hollywood Filming Locations</h5>
+                <div>$35 &#9702; Walking tour</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feature-large switchable bg--secondary">
+        <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-lg-6 col-md-6">
+              <img
+                alt="Image"
+                class="border--round box-shadow-wide"
+                src="img/inner-5.jpg"
+              />
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <div class="heading-block">
+                <h2>Experience quality withWeddingAccomodation</h2>
+              </div>
+              <div class="text-block">
+                <h5>Find unique experiences</h5>
+                <p>
+                  Combine blocks from a range of categories to build pages that
+                  are rich in visual style and interactivity.
+                </p>
+              </div>
+              <div class="text-block">
+                <h5>Book with confidence</h5>
+                <p>
+                 Weddingis built with customization and ease-of-use at its core
+                  &mdash; consistent markup and useful data attribute modifiers
+                  make rapid development simple.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end of row-->
+        </div>
+        <!--end of container-->
+      </section>
+      <%- include('./includes/footer.ejs') %>
+    </div>
+    <!--<div class="loader"></div>-->
+    <a
+      class="back-to-top inner-link"
+      href="#start"
+      data-scroll-class="100vh:active"
+    >
+      <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    <%- include('./includes/script.ejs') %>
+  </body>
+</html>

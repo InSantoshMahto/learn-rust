@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WeddingMultipurpose HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site Description Here" />
+    <%- include('./includes/link.ejs') %>
+  </head>
+  <body class=" ">
+    <%- include('./includes/header.ejs') %>
+    <div class="main-container">
+      <section class="text-center height-50">
+        <div class="container pos-vertical-center">
+          <div class="row">
+            <div class="col-md-8 col-lg-6">
+              <h1>Let's talk about your project</h1>
+              <p class="lead">
+                Visit us in Melbourne or make contact via the form below to talk
+                more about your project or idea.
+              </p>
+            </div>
+          </div>
+          <!--end of row-->
+        </div>
+        <!--end of container-->
+      </section>
+      <section class="unpad ">
+        <div
+          class="map-container border--round"
+          data-maps-api-key="AIzaSyCfo_V3gmpPm1WzJEC9p_sRbgvyVbiO83M"
+          data-address="123 Rathdowne street, Carlton Victoria"
+          data-marker-title="Stack"
+          data-map-style='[{"featureType":"landscape","stylers":[{"hue":"#FFBB00"},{"saturation":43.400000000000006},{"lightness":37.599999999999994},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":52},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#0078FF"},{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#00FF6A"},{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1}]}]'
+          data-map-zoom="15"
+        ></div>
+      </section>
+      <section class="switchable ">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-5">
+              <p class="lead">
+                E:
+                <a href="#">hello@stack.net</a>
+                <br />
+                P: +613 4827 2294
+              </p>
+              <p class="lead">
+                Give us a call or drop by anytime, we endeavour to answer all
+                enquiries within 24 hours on business days.
+              </p>
+              <p class="lead">
+                We are open from 9am &mdash; 5pm week days.
+              </p>
+            </div>
+            <div class="col-md-6 col-12">
+              <form
+                class="form-email row mx-0"
+                data-success="Thanks for your enquiry, we'll be in touch shortly."
+                data-error="Please fill in all fields correctly."
+                data-recaptcha-sitekey="6LewhCIUAAAAACSwFvBDhgtTbw6EnW6e9dip8o2u"
+                data-recaptcha-theme="light"
+              >
+                <div class="col-md-6 col-12">
+                  <label>Your Name:</label>
+                  <input type="text" name="name" class="validate-required" />
+                </div>
+                <div class="col-md-6 col-12">
+                  <label>Email Address:</label>
+                  <input
+                    type="email"
+                    name="email"
+                    class="validate-required validate-email"
+                  />
+                </div>
+                <div class="col-md-12 col-12">
+                  <label>Message:</label>
+                  <textarea
+                    rows="4"
+                    name="Message"
+                    class="validate-required"
+                  ></textarea>
+                </div>
+                <div class="col-md-5 col-lg-4 col-6">
+                  <button
+                    type="submit"
+                    class="btn btn--primary type--uppercase"
+                  >
+                    Send Enquiry
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!--end of row-->
+        </div>
+        <!--end of container-->
+      </section>
+      <%- include('./includes/footer.ejs') %>
+    </div>
+    <!--<div class="loader"></div>-->
+    <a
+      class="back-to-top inner-link"
+      href="#start"
+      data-scroll-class="100vh:active"
+    >
+      <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    <%- include('./includes/script.ejs') %>
+  </body>
+</html>
