@@ -1,3 +1,3 @@
 # Learn Rust
 
-learn and practice rust
+learn and practice rust programing language
