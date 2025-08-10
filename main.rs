@@ -1,8 +1,3 @@
-fn main(){
-    println!("Hello, World! 🙏🏼");
-    author();
-}
-
-fn author(){
+fn main() {
     println!("Namaste Rust");
 }
